@@ -35,6 +35,7 @@ See `API_DOCUMENTATION.md` for more details.
  - *Each* intent within your Wit.AI agent should be trained on **5+ utterances** 
    - However, you do not need multiple responses for your intents; one response will do.
  - When `fetch`'ing data within `ChatAgent.js`, use the `async`/`await` syntax! Do not use `.then`.
+ - When submitting your project, **please be sure to include a .ZIP of your Wit.AI agent!** Further instructions can be found underneath "Submission Details".
 
 ## BadgerMart
 
@@ -142,6 +143,9 @@ If the user's cart is empty, simply inform them as such.
 ![](_figures/step9.png)
 
 ### Submission Details
+
+**BE SURE TO INCLUDE A COPY OF YOUR WIT.AI AGENT!** You can download this by visiting your `Wit.AI Project > Management > Settings > Export Your Data > Download .zip with your data`. Please commit and push this ZIP file as a part of your Git repository.
+
 In addition to your code, **you will also need to submit a video recording of your app**. Like the demo video, it should cover all the tasks below. Please thoroughly demonstrate all tasks to showcase the capabilities of your app.
 
 **Please embed your recording as a Kaltura video as a part of the assignment submission.** You may find [Zoom](https://support.zoom.us/hc/en-us/articles/201362473-Enabling-and-starting-local-recordings) helpful for recording your screen.
